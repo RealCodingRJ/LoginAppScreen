@@ -1,0 +1,12 @@
+{
+  "name": "moneycalculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch styles/main.scss styles/bundle.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

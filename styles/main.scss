@@ -1,0 +1,60 @@
+$prom: #333;
+$white: white;
+$grey: #ccc;
+$xPosColor1: #12122f;
+$xPosColor2: #12130f;
+
+#button {
+  background-color: $prom;
+  padding: 18px;
+  border: none;
+  width: 145px;
+  color: $white;
+
+  position: relative;
+  top: 298px;
+
+  &:hover {
+    background-color: #202020;
+    color: $white;
+  }
+}
+
+div {
+  display: grid;
+  justify-content: center;
+}
+
+body {
+  background-image: linear-gradient(to right, $xPosColor1, $xPosColor2);
+}
+
+#input {
+  padding: 15px;
+  width: 380px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+
+  position: relative;
+  top: 300px;
+
+  &:hover {
+    background-color: $grey;
+  }
+}
+
+#input1 {
+  padding: 15px;
+  width: 465px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+
+  position: relative;
+  top: 300px;
+
+  &:hover {
+    background-color: $grey;
+  }
+}

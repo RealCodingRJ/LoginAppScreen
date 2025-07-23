@@ -1,0 +1,50 @@
+#button {
+  background-color: #333;
+  padding: 18px;
+  border: none;
+  width: 145px;
+  color: white;
+  position: relative;
+  top: 298px;
+}
+#button:hover {
+  background-color: #202020;
+  color: white;
+}
+
+div {
+  display: grid;
+  justify-content: center;
+}
+
+body {
+  background-image: linear-gradient(to right, #12122f, #12130f);
+}
+
+#input {
+  padding: 15px;
+  width: 380px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  position: relative;
+  top: 300px;
+}
+#input:hover {
+  background-color: #ccc;
+}
+
+#input1 {
+  padding: 15px;
+  width: 465px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  position: relative;
+  top: 300px;
+}
+#input1:hover {
+  background-color: #ccc;
+}
+
+/*# sourceMappingURL=bundle.css.map */
